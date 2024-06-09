@@ -1,0 +1,8 @@
+height = input('Please enter your height in meters as a decimal number (e.g., 1.75): ')
+weight = input('Please enter your weight in kilograms: ')
+height_int = float(height)
+weight_int = int(weight)
+bmi = round(weight_int / height_int ** 2)
+bmi_int = int(bmi)
+bmi_str = str(bmi)
+print('Your BMI is: ' + bmi_str)
