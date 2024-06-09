@@ -24,6 +24,6 @@ The result is rounded to the nearest whole number using the round function.
 The resulting BMI is converted to a string so that it can be concatenated with other strings for printing.  
 `bmi_str = str(bmi)`
 
-Output:
+### Output:
 The final BMI value is printed to the console.  
 `print('Your BMI is: ' + bmi_str)`
