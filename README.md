@@ -10,8 +10,8 @@ The script asks the user to enter their height in meters and their weight in kil
 `weight = input('Please enter your weight in kilograms: ')`
 
 ### Conversion:
-height is converted from a string to a float using float(height). This allows for decimal values, which is necessary for height.
-weight is converted from a string to an integer using int(weight). This assumes that the weight will be entered as a whole number.  
+Height is converted from a string to a float using float(height). This allows for decimal values, which is necessary for height.
+Weight is converted from a string to an integer using int(weight). This assumes that the weight will be entered as a whole number.  
 `height_int = float(height)`  
 `weight_int = int(weight)`
 
