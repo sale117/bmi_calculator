@@ -6,7 +6,7 @@ This script calculates your Body Mass Index (BMI) based on your height and weigh
 
 ### Input Collection:
 The script asks the user to enter their height in meters and their weight in kilograms using the input function.  
-`height = input('Please enter your height in meters as a decimal number (e.g., 1.75): ')`  
+`height = float(input('Please enter your height in meters as a decimal number (e.g., 1.75): ')`  
 `weight = input('Please enter your weight in kilograms: ')`
 
 ### Conversion:
